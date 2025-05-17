@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家庭の常備薬ガイド - いざという時に慌てないための医薬品管理術</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-text">
+                    <div class="logo">
+                        <img src="images/svg/medical-box-logo.svg" width="36" height="36" alt="医療ボックスのロゴ">
+                        <span>家庭の常備薬ガイド</span>
+                    </div>
+                    <h1 class="mb-20">いざという時に慌てないための<br>家庭の医薬品管理術</h1>
+                    <p class="tagline">家族の健康を守るために、今すぐできること</p>
+                    <a href="#cta" class="btn btn-accent btn-large btn-icon pulse">無料ガイドを今すぐ受け取る <img src="images/svg/arrow-forward.svg" width="24" height="24" alt="矢印アイコン"></a>
+                </div>
+                <div class="header-image">
+                    <div style="width: 500px; height: 350px; background: linear-gradient(135deg, #e1f5fe, #4fc3f7); border-radius: 10px; display: flex; justify-content: center; align-items: center; text-align: center; color: #01579b; padding: 20px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+<!--
+                        <div>
+                            <i class="material-icons" style="font-size: 4rem; margin-bottom: 15px;">family_restroom</i><br>
+                            家族と救急箱のイメージ
+                        </div>
+                        <div>
+                            <img src="images/img/family-medicine.png" alt="家族と救急箱のイメージ" style="width: 100%; max-width: 300px; border-radius: 10px; margin-bottom: 15px;">
+                        </div>
+-->
+                        <div class="header-image">
+                            <div style="width: 500px; height: 350px; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+                                <img src="images/img/family-medicine.png" alt="家族と救急箱のイメージ" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Scenario Section -->
+    <section class="problem-scenario" id="problems">
+        <div class="container">
+            <h2 class="text-center mb-40">もしも、こんな時どうしますか？<i class="material-icons">help_outline</i></h2>
+            
+            <div class="scenario-list">
+                <div class="scenario-item">
+                    <div class="scenario-icon">🌙</div>
+                    <h3 class="scenario-title">子どもの高熱</h3>
+                    <p class="scenario-content">夜中に子どもが急に高熱を出したとき、すぐに対応できますか？</p>
+                </div>
+                
+                <div class="scenario-item">
+                    <div class="scenario-icon">🏥</div>
+                    <h3 class="scenario-title">高齢者の体調不良</h3>
+                    <p class="scenario-content">同居の高齢者が体調を崩したとき、適切な薬を判断できますか？</p>
+                </div>
+                
+                <div class="scenario-item">
+                    <div class="scenario-icon">✈️</div>
+                    <h3 class="scenario-title">旅行先での体調変化</h3>
+                    <p class="scenario-content">旅行先で急に体調が悪くなったとき、必要な薬を持っていますか？</p>
+                </div>
+                
+                <div class="scenario-item">
+                    <div class="scenario-icon">🌊</div>
+                    <h3 class="scenario-title">災害時</h3>
+                    <p class="scenario-content">災害時に避難が必要なとき、家族に必要な医薬品をすぐに持ち出せますか？</p>
+                </div>
+            </div>
+            
+            <div class="card mt-40">
+                <h3 class="mb-20">こんな不安はありませんか？</h3>
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="material-icons">sentiment_very_dissatisfied</i></div>
+                        <div>薬の名前や効能をうろ覚えで、いざというときに迷ってしまう</div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="material-icons">sentiment_very_dissatisfied</i></div>
+                        <div>どの症状にどの薬を使えばいいのか判断できない</div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="material-icons">sentiment_very_dissatisfied</i></div>
+                        <div>家にある薬が期限切れで、必要なときに使えなかった</div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon"><i class="material-icons">sentiment_very_dissatisfied</i></div>
+                        <div>緊急時に病院に行くべきか、自宅で対応すべきか判断に迷う</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution" id="solution">
+        <div class="bg-shape">
+            <img src="images/svg/family-medicine-chart.svg" alt="家族構成別の必要な常備薬" width="300" height="300">
+        </div>
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h2>あなたの不安を解消する『家庭の常備薬ガイド』</h2>
+                    <p>緊急時に「何を使えばいいのか」「どう対応すればいいのか」を迷わないための、家庭の医薬品管理と救急対応の完全ガイドです。</p>
+                    
+                    <ul class="feature-list">
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <img src="images/svg/check-circle.svg" width="24" height="24" alt="チェックマーク">
+                            </div>
+                            <div>家族構成別の必要な常備薬がわかる</div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <img src="images/svg/check-circle.svg" width="24" height="24" alt="チェックマーク">
+                            </div>
+                            <div>症状別の対応フローチャートで判断に迷わない</div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <img src="images/svg/check-circle.svg" width="24" height="24" alt="チェックマーク">
+                            </div>
+                            <div>薬の効能と使い方を一目でチェックできる</div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="feature-icon">
+                                <img src="images/svg/check-circle.svg" width="24" height="24" alt="チェックマーク">
+                            </div>
+                            <div>薬の管理方法と期限管理のコツがわかる</div>
+                        </li>
+                    </ul>
+                    
+                    <a href="#guide-details" class="btn btn-secondary">詳しい内容を見る 
+                        <img src="images/svg/arrow-forward.svg" width="20" height="20" alt="矢印アイコン" style="margin-left: 8px;">
+                    </a>
+                </div>
+<!--
+                <div class="solution-image">
+                    <div class="solution-image-placeholder">
+                        <img src="images/svg/guide-book.svg" width="80" height="80" alt="ガイドブック">
+                        <p>常備薬ガイドのイメージ</p>
+                        <div class="mock-content">✓ 家族構成別常備薬リスト</div>
+                        <div class="mock-content">✓ 症状別対応フローチャート</div>
+                        <div class="mock-content">✓ 薬の管理カレンダー</div>
+                        <div class="mock-content">✓ 緊急連絡先リスト</div>
+                    </div>
+                </div>
+-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide Content Section -->
+    <section class="guide-content" id="guide-details">
+        <div class="container">
+            <h2 class="text-center mb-40">このガイドで具体的に何がわかる？<i class="material-icons">menu_book</i></h2>
+            
+            <div class="content-cards">
+                <div class="content-card">
+                    <div class="content-card-header">
+                        <div class="content-card-title">
+                            <i class="material-icons content-card-icon">assignment</i>
+                            家族構成別おすすめ常備薬リスト
+                        </div>
+                    </div>
+                    <div class="content-card-body">
+                        <p>年齢・性別・持病などの条件別に、必要な常備薬をリストアップ。購入優先度も明記しているので計画的に揃えられます。</p>
+                        <div class="card-image-placeholder">
+                            <img src="images/svg/medicine-list.svg" width="60" height="60" alt="お薬リスト">
+                            <p>常備薬リストサンプル</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-card">
+                    <div class="content-card-header">
+                        <div class="content-card-title">
+                            <i class="material-icons content-card-icon">child_care</i>
+                            子どもの症状別対応ガイド
+                        </div>
+                    </div>
+                    <div class="content-card-body">
+                        <p>発熱、咳、鼻水、腹痛など子どもによくある症状への対応方法を詳しく解説。医師に相談すべきサインも明記。</p>
+                        <div class="card-image-placeholder" style="background-color: #e3f2fd;">
+                            <img src="images/svg/child-care.svg" width="60" height="60" alt="子どもケア">
+                            <p style="color: #0d47a1;">子ども症状ガイドサンプル</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-card">
+                    <div class="content-card-header">
+                        <div class="content-card-title">
+                            <i class="material-icons content-card-icon">elderly</i>
+                            高齢者の健康管理と薬の知識
+                        </div>
+                    </div>
+                    <div class="content-card-body">
+                        <p>高齢者特有の症状と対応方法、薬の飲み合わせ、副作用の注意点などを解説。介護者でなくても役立つ知識が満載。</p>
+                        <div class="card-image-placeholder" style="background-color: #fff3e0;">
+                            <img src="images/svg/elderly-care.svg" width="60" height="60" alt="高齢者ケア">
+                            <p style="color: #e65100;">高齢者健康管理サンプル</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-card">
+                    <div class="content-card-header">
+                        <div class="content-card-title">
+                            <i class="material-icons content-card-icon">home</i>
+                            家庭の救急箱の正しい作り方
+                        </div>
+                    </div>
+                    <div class="content-card-body">
+                        <p>救急箱に揃えるべきアイテムと収納方法、使いやすい配置のコツ、定期的な点検方法まで徹底解説。</p>
+                        <div class="card-image-placeholder" style="background-color: #ffebee;">
+                            <img src="images/svg/first-aid-kit.svg" width="60" height="60" alt="救急箱">
+                            <p style="color: #b71c1c;">救急箱サンプル</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content-preview">
+                <span class="preview-badge">サンプル</span>
+                <h3>我が家の常備薬チェックリスト</h3>
+                
+                <div class="checklist-preview">
+                    <div class="checklist-item">
+                        <div>解熱鎮痛剤</div>
+                        <div>✓</div>
+                    </div>
+                    <div class="checklist-item">
+                        <div>胃腸薬</div>
+                        <div>✓</div>
+                    </div>
+                    <div class="checklist-item">
+                        <div>絆創膏</div>
+                        <div>✓</div>
+                    </div>
+                    <div class="checklist-item">
+                        <div>消毒液</div>
+                        <div>✓</div>
+                    </div>
+                    <div class="checklist-item">
+                        <div>体温計</div>
+                        <div>✓</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section class="usage-section" id="usage">
+        <div class="container">
+            <h2 class="text-center mb-40">こんな風に役立ちます<i class="material-icons">lightbulb</i></h2>
+            
+            <div class="scenario-comparison">
+                <div class="scenario-column">
+                    <div class="before-after before">
+                        <span class="comparison-label">Before</span>
+                        <h3>薬局での買い物時</h3>
+                        <p>「何を買えばいいんだっけ？」と迷いながら、記憶を頼りに購入。結局、必要なものを買い忘れて再度来店することに...</p>
+                    </div>
+                    
+                    <div class="before-after after">
+                        <span class="comparison-label">After</span>
+                        <h3>薬局での買い物時</h3>
+                        <p>ガイドのチェックリストを見ながら、必要な薬を計画的に購入。薬剤師さんにも的確に相談できるようになりました！</p>
+                    </div>
+                </div>
+                
+                <div class="scenario-column">
+                    <div class="before-after before">
+                        <span class="comparison-label">Before</span>
+                        <h3>緊急時の判断</h3>
+                        <p>子どもが夜中に高熱を出したとき、パニックになって何をすればいいか分からず、すぐに救急車を呼んでしまった...</p>
+                    </div>
+                    
+                    <div class="before-after after">
+                        <span class="comparison-label">After</span>
+                        <h3>緊急時の判断</h3>
+                        <p>症状別対応フローチャートを見て冷静に判断。適切な解熱剤を使い、翌朝に小児科を受診して安心して治療に専念できました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="text-center mb-40">実際に活用している方々の声<i class="material-icons">forum</i></h2>
+            
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">子どもが熱を出したときのフローチャートが本当に役立ちました。病院に行くべきか、様子を見るべきか、冷静に判断できるようになりました。</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">👩‍👧</div>
+                            <div class="testimonial-info">
+                                <div class="testimonial-name">佐藤さん</div>
+                                <div class="testimonial-role">2歳と5歳の子を持つ母親</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">遠方に住む両親の薬の管理に悩んでいましたが、このガイドを共有したことで、両親自身が薬の管理ができるようになりました。安心感が違います。</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">👨‍👩‍👦</div>
+                            <div class="testimonial-info">
+                                <div class="testimonial-name">鈴木さん</div>
+                                <div class="testimonial-role">遠方に親を持つ会社員</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">三世代で暮らしていますが、それぞれの年代に合った常備薬を揃えられるようになりました。救急箱の整理術も目から鱗でした！</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">👨‍👩‍👧‍👦</div>
+                            <div class="testimonial-info">
+                                <div class="testimonial-name">田中さん</div>
+                                <div class="testimonial-role">三世代同居の家族</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="text-center mb-40">よくある質問<i class="material-icons">help_outline</i></h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>このガイドはどのような形式で受け取れますか？</span>
+                        <i class="material-icons faq-icon">expand_more</i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>PDFファイル形式でメールにてお送りします。スマートフォン、タブレット、パソコンなど、どのデバイスでも閲覧いただけます。印刷してご利用いただくこともできます。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>個人情報は安全に保護されますか？</span>
+                        <i class="material-icons faq-icon">expand_more</i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>はい、ご入力いただいたメールアドレスは、ガイドの送付およびサービスに関するご案内以外の目的で使用することはありません。第三者に提供することもございません。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>ガイドの内容は定期的に更新されますか？</span>
+                        <i class="material-icons faq-icon">expand_more</i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>はい、医薬品情報や健康管理の知見は日々更新されています。最新の情報に基づいて年に2回程度内容を更新し、登録者の方には最新版をお届けしています。</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>医療の専門家に相談する代わりになりますか？</span>
+                        <i class="material-icons faq-icon">expand_more</i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>いいえ、このガイドは医療専門家への相談の代わりにはなりません。あくまで家庭での初期対応や日常の健康管理のための参考資料です。症状が重い場合や判断に迷う場合は、必ず医療機関を受診してください。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="cta-container">
+                <h2 class="text-center">家族の健康を守る一歩を、今すぐ踏み出しませんか？</h2>
+                <p class="text-center mb-30">メールアドレスを入力するだけで、すぐに無料ガイドをお届けします。</p>
+                
+                <form class="cta-form">
+                    <input type="email" class="cta-input" placeholder="メールアドレスを入力" required>
+                    <button type="submit" class="cta-button">今すぐガイドを受け取る <img src="images/svg/arrow-forward.svg" width="24" height="24" alt="矢印アイコン"></button>
+                </form>
+                
+                <div class="trust-elements">
+                    <div class="trust-item">
+                        <i class="material-icons trust-icon">lock</i>
+                        <span>個人情報保護</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="material-icons trust-icon">timer</i>
+                        <span>登録は30秒で完了</span>
+                    </div>
+                </div>
+                
+                <div class="social-proof">
+                    すでに5,000人以上の家族が活用中！
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-container">
+                <div class="badge">
+                    <div class="badge-icon"><i class="material-icons">medical_services</i></div>
+                    <div class="badge-text">
+                        <div class="badge-title">薬剤師監修</div>
+                        <p>現役薬剤師が全ての情報を確認しています</p>
+                    </div>
+                </div>
+                
+                <div class="badge">
+                    <div class="badge-icon"><i class="material-icons">description</i></div>
+                    <div class="badge-text">
+                        <div class="badge-title">厚生労働省ガイドライン準拠</div>
+                        <p>公的な健康管理指針に沿った内容です</p>
+                    </div>
+                </div>
+                
+                <div class="badge">
+                    <div class="badge-icon"><i class="material-icons">warning</i></div>
+                    <div class="badge-text">
+                        <div class="badge-title">免責事項</div>
+                        <p>状況により医師・薬剤師への相談を推奨しています</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/svg/medical-box-logo.svg" width="24" height="24" alt="医療ボックスのロゴ">
+                    <span>家庭の常備薬ガイド</span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#" class="footer-link">お問い合わせ</a>
+                    <a href="#" class="footer-link">プライバシーポリシー</a>
+                    <a href="#" class="footer-link">利用規約</a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                © 2025 家庭の常備薬ガイド. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

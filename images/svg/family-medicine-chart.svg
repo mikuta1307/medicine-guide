@@ -1,0 +1,58 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景円 -->
+  <circle cx="150" cy="150" r="150" fill="rgba(76, 175, 80, 0.1)"/>
+  
+  <!-- 中央のメディシンボックス -->
+  <rect x="125" y="85" width="50" height="35" rx="5" fill="#4CAF50" opacity="0.8"/>
+  <rect x="125" y="80" width="50" height="10" rx="3" fill="#4CAF50" opacity="0.8"/>
+  <line x1="150" y1="85" x2="150" y2="120" stroke="white" stroke-width="2" opacity="0.6"/>
+  <line x1="138" y1="103" x2="162" y2="103" stroke="white" stroke-width="2" opacity="0.6"/>
+  
+  <!-- 家族グループ - 円形の配置 -->
+  <!-- 小さな子どものアイコン（左上） -->
+  <g transform="translate(80, 90)">
+    <circle cx="0" cy="0" r="25" fill="rgba(33, 150, 243, 0.2)"/>
+    <circle cx="0" cy="-10" r="10" fill="rgba(33, 150, 243, 0.6)"/>
+    <path d="M-8,0 Q0,15 8,0" stroke="rgba(33, 150, 243, 0.6)" stroke-width="3" fill="none"/>
+    <line x1="-5" y1="5" x2="-5" y2="15" stroke="rgba(33, 150, 243, 0.6)" stroke-width="3"/>
+    <line x1="5" y1="5" x2="5" y2="15" stroke="rgba(33, 150, 243, 0.6)" stroke-width="3"/>
+    
+    <!-- 子ども用の薬 -->
+    <rect x="-15" y="30" width="30" height="15" rx="3" fill="rgba(33, 150, 243, 0.6)"/>
+    <text x="0" y="42" font-family="Arial" font-size="8" fill="white" text-anchor="middle">小児用</text>
+  </g>
+  
+  <!-- 大人のアイコン（右上） -->
+  <g transform="translate(220, 90)">
+    <circle cx="0" cy="0" r="25" fill="rgba(255, 152, 0, 0.2)"/>
+    <circle cx="0" cy="-10" r="10" fill="rgba(255, 152, 0, 0.6)"/>
+    <path d="M-10,12 L0,0 L10,12" stroke="rgba(255, 152, 0, 0.6)" stroke-width="3" fill="none"/>
+    <line x1="0" y1="0" x2="0" y2="20" stroke="rgba(255, 152, 0, 0.6)" stroke-width="3"/>
+    
+    <!-- 大人用の薬 -->
+    <rect x="-15" y="30" width="30" height="15" rx="3" fill="rgba(255, 152, 0, 0.6)"/>
+    <text x="0" y="42" font-family="Arial" font-size="8" fill="white" text-anchor="middle">一般用</text>
+  </g>
+  
+  <!-- 高齢者のアイコン（下） -->
+  <g transform="translate(150, 210)">
+    <circle cx="0" cy="0" r="25" fill="rgba(156, 39, 176, 0.2)"/>
+    <circle cx="0" cy="-10" r="10" fill="rgba(156, 39, 176, 0.6)"/>
+    <path d="M-8,0 Q0,15 8,0" stroke="rgba(156, 39, 176, 0.6)" stroke-width="3" fill="none"/>
+    <path d="M0,20 C-5,15 -10,25 -5,30" stroke="rgba(156, 39, 176, 0.6)" stroke-width="2" fill="none"/>
+    <line x1="0" y1="15" x2="0" y2="25" stroke="rgba(156, 39, 176, 0.6)" stroke-width="3"/>
+    
+    <!-- 高齢者用の薬 -->
+    <rect x="-15" y="35" width="30" height="15" rx="3" fill="rgba(156, 39, 176, 0.6)"/>
+    <text x="0" y="47" font-family="Arial" font-size="8" fill="white" text-anchor="middle">高齢者用</text>
+  </g>
+  
+  <!-- 中央から各ファミリーグループへの線 -->
+  <line x1="150" y1="120" x2="80" y2="90" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  <line x1="150" y1="120" x2="220" y2="90" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  <line x1="150" y1="120" x2="150" y2="210" stroke="#4CAF50" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  
+  <!-- テキスト -->
+  <text x="150" y="160" font-family="Arial" font-size="14" font-weight="bold" fill="#4CAF50" text-anchor="middle">家族構成別</text>
+  <text x="150" y="175" font-family="Arial" font-size="12" fill="#4CAF50" text-anchor="middle">必要な常備薬</text>
+</svg>
