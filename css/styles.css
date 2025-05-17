@@ -1008,4 +1008,10 @@ p {
     .footer-link {
         margin: 0 10px;
     }
+
+    .portfolio-notice {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        opacity: 0.8;
+    }    
 }
