@@ -28,7 +28,3 @@
 ## GitHub Pages URL
 
 https://mikuta1307.github.io/medicine-guide/
-
-## スクリーンショット
-
-[スクリーンショットをここに追加]
